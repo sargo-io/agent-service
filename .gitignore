@@ -3,6 +3,8 @@ dist
 !index.ts
 !character.ts
 .env
+.env.development
+.env.production
 node_modules
 dist/
 

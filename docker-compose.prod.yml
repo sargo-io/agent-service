@@ -9,7 +9,7 @@ services:
         volumes:
             - ./data:/app/data
         env_file:
-            - .env
+            - .env.production
         ports:
             - "3000:3000"
         restart: always
